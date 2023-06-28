@@ -1,0 +1,24 @@
+{
+    "name": "brian/restaurant-infosys-web-client",
+    "description": "A web client app for the system's adminstrative functions",
+    "type": "project",
+    "require": {
+        "fortawesome/font-awesome": "^6.4",
+        "twbs/bootstrap": "^5.3",
+        "components/jquery": "^3.6",
+        "twbs/bootstrap-icons": "^1.10"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Brian\\RestaurantInfosysWebClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brian Gicharu",
+            "email": "brian.gicharu@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
